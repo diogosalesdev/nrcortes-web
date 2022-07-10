@@ -1,14 +1,14 @@
-import './App.css'
-import { Signin } from './components/Signin'
-import logo from './logo.svg'
+import { Dashboard } from './components/Dashboard';
+import { Header } from './components/Header';
+import './global.css';
 
 function App() {
-  return (
-    <div>
-      <Signin />
-      <img src={logo} className="App-logo" alt="logo" />
-    </div>
-  )
+	return (
+		<div>
+			<Header />
+			<Dashboard />
+		</div>
+	);
 }
 
-export default App
+export default App;
