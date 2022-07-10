@@ -13,7 +13,7 @@ export function Header() {
 					<h2>Nome do usuário</h2>
 				</div>
 			</div>
-			<Power />
+			<Power className={styles.icon} />
 		</header>
 	);
 }
